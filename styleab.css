@@ -1,0 +1,43 @@
+body{
+	background-image: url('img/bgr.png');
+	background-size: cover;
+
+}
+
+header{
+	background-color: lightgray;
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	font-size: 50px;
+}
+
+main{
+	margin: 20px;
+	font-family: Franklin Gothic Medium;
+	font-size: 25px;
+}
+
+.buttons button{
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: gray;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	font-family: Franklin Gothic Medium;
+
+}
+
+	.buttons button:hover{
+	background-color: lightgray;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
